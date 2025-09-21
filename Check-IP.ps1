@@ -57,4 +57,4 @@ if($TXT -or $CSV){
 } else {
     Write-Output $IPInfo
 }
-Start-Sleep 1.35 #To avoid going over rate limit of 45 requests per minute when done in bulk
+Start-Sleep 1.5 #To avoid going over rate limit of 45 requests per minute when done in bulk
